@@ -28,44 +28,46 @@ I was asked to make the manufacturer logos appear in the in the product flypage,
 Firstly, find this in administrator/components/com\_virtuemart/classes/ps\_product.php:
   
 
-
-    &nbsp;&nbsp;function get_mf_name($product_id) {
-    &nbsp;&nbsp;&nbsp;&nbsp;$db = new ps_DB;
+```
+            function get_mf_name($product_id) {
+                    $db = new ps_DB;
     
-    &nbsp;&nbsp;&nbsp;&nbsp;$q = "SELECT mf_name,#__{vm}_manufacturer.manufacturer_id FROM #__{vm}_product_mf_xref,#__{vm}_manufacturer ";
-    &nbsp;&nbsp;&nbsp;&nbsp;$q .= "WHERE product_id=&#039;$product_id&#039; ";
-    &nbsp;&nbsp;&nbsp;&nbsp;$q .= "AND #__{vm}_manufacturer.manufacturer_id=#__{vm}_product_mf_xref.manufacturer_id";
+                    $q = "SELECT mf_name,#__{vm}_manufacturer.manufacturer_id FROM #__{vm}_product_mf_xref,#__{vm}_manufacturer ";
+                    $q .= "WHERE product_id=&#039;$product_id&#039; ";
+                    $q .= "AND #__{vm}_manufacturer.manufacturer_id=#__{vm}_product_mf_xref.manufacturer_id";
     
-    &nbsp;&nbsp;&nbsp;&nbsp;$db->query($q);
-    &nbsp;&nbsp;&nbsp;&nbsp;$db->next_record();
-    &nbsp;&nbsp;&nbsp;&nbsp;if ($db->f("mf_name")) {
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return $db->f("mf_name");
-    &nbsp;&nbsp;&nbsp;&nbsp;}
-    &nbsp;&nbsp;&nbsp;&nbsp;else {
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "";
-    &nbsp;&nbsp;&nbsp;&nbsp;}
-    &nbsp;&nbsp;}
+                    $db->query($q);
+                    $db->next_record();
+                    if ($db->f("mf_name")) {
+                            return $db->f("mf_name");
+                    }
+                    else {
+                            return "";
+                    }
+            }
+```
 
 And add this after it, it&#8217;s basically a rework of the above code, but for the manufacturer description:
   
 
-
-    &nbsp;&nbsp;function get_mf_desc($product_id) {
-    &nbsp;&nbsp;&nbsp;&nbsp;$db = new ps_DB;
+```
+            function get_mf_desc($product_id) {
+                    $db = new ps_DB;
     
-    &nbsp;&nbsp;&nbsp;&nbsp;$q = "SELECT mf_desc,#__{vm}_manufacturer.manufacturer_id FROM #__{vm}_product_mf_xref,#__{vm}_manufacturer ";
-    &nbsp;&nbsp;&nbsp;&nbsp;$q .= "WHERE product_id=&#039;$product_id&#039; ";
-    &nbsp;&nbsp;&nbsp;&nbsp;$q .= "AND #__{vm}_manufacturer.manufacturer_id=#__{vm}_product_mf_xref.manufacturer_id";
+                    $q = "SELECT mf_desc,#__{vm}_manufacturer.manufacturer_id FROM #__{vm}_product_mf_xref,#__{vm}_manufacturer ";
+                    $q .= "WHERE product_id=&#039;$product_id&#039; ";
+                    $q .= "AND #__{vm}_manufacturer.manufacturer_id=#__{vm}_product_mf_xref.manufacturer_id";
     
-    &nbsp;&nbsp;&nbsp;&nbsp;$db->query($q);
-    &nbsp;&nbsp;&nbsp;&nbsp;$db->next_record();
-    &nbsp;&nbsp;&nbsp;&nbsp;if ($db->f("mf_desc")) {
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return $db->f("mf_desc");
-    &nbsp;&nbsp;&nbsp;&nbsp;}
-    &nbsp;&nbsp;&nbsp;&nbsp;else {
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "";
-    &nbsp;&nbsp;&nbsp;&nbsp;}
-    &nbsp;&nbsp;}
+                    $db->query($q);
+                    $db->next_record();
+                    if ($db->f("mf_desc")) {
+                            return $db->f("mf_desc");
+                    }
+                    else {
+                            return "";
+                    }
+            }
+```
 
 Then, in the product_snapshot function find this line:
   
