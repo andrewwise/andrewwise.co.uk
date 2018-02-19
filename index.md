@@ -1,9 +1,9 @@
-## About Andrew
+## Hi, I'm Andrew!
 
-Andrew is a [Magento certified](http://www.magentocommerce.com/certification/directory/dev/466824/) developer based in York, England. He holds BSc (Hons) in Computing from Sheffield Hallam University.
+I am [Magento certified](http://www.magentocommerce.com/certification/directory/dev/466824/) Magento and PHP developer based in York, England. I have a BSc (Hons) in Computing from Sheffield Hallam University.
 
-He is part of the development team at [Allies Digital commerce agency in York.](http://allies.co.uk/)
+I am part of the development team at [Allies Digital commerce agency in York.](http://allies.co.uk/)
 
-## Contact
+## Contact Me
 
-E-mail: [andrew@andrewwise.co.uk](andrew@andrewwise.co.uk)
+My preferred form of contact is e-mail: [andrew@andrewwise.co.uk](andrew@andrewwise.co.uk)
