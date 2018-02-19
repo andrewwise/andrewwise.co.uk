@@ -6,4 +6,4 @@ I am part of the development team at [Allies Digital commerce agency in York.](h
 
 ## Contact Me
 
-My preferred form of contact is e-mail: [andrew@andrewwise.co.uk](andrew@andrewwise.co.uk)
+My preferred form of contact is email: [andrew@andrewwise.co.uk](andrew@andrewwise.co.uk)
