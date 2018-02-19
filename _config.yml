@@ -2,8 +2,9 @@ theme: jekyll-theme-cayman
 url: http://www.andrewwise.co.uk
 name: Andrew Wise
 description: Web developer based in York
-site.title: Andrew Wise
+title: Andrew Wise
 email: andrew@andrewwise.co.uk
 twitter:
   username: wisey1
+  url: https://twitter.com/wisey1
 linkedin: https://www.linkedin.com/in/andrew-wise-b0b8942a/
