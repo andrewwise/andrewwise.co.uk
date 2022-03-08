@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Web developer based in York
 ---
 
 ## Hi, I'm Andrew!
