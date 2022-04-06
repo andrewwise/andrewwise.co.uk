@@ -4,7 +4,7 @@ title: 'Virtuemart - Adding Manufacturer Description/Logos to the Product Page'
 date: 2011-01-25T21:44:50+00:00
 author: Andrew
 layout: post
-guid: https://www.andrewwise.co.uk/?p=23
+guid: https://andrewwise.co.uk/?p=23
 permalink: /2011/01/25/virtuemart-adding-manufacturer-descriptionlogos-to-the-product-page/
 categories:
   - Virtuemart
