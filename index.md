@@ -11,7 +11,7 @@ I am part of the development team at [Brave the Skies Shopify agency in York.](h
 
 ## Contact me
 
-My preferred form of contact is email: [andrew@andrewwise.co.uk](andrew@andrewwise.co.uk)
+My preferred form of contact is email: [andrew@andrewwise.co.uk](mailto:andrew@andrewwise.co.uk)
 
 ## Fun projects
 
