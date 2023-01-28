@@ -8,3 +8,4 @@ twitter:
   username: wisey1
   url: https://twitter.com/wisey1
 linkedin: https://www.linkedin.com/in/andrew-wise-b0b8942a/
+exclude: ["CNAME", "README.md"]
