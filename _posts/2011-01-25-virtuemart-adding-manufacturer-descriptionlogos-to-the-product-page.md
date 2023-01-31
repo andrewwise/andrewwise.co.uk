@@ -28,7 +28,7 @@ I was asked to make the manufacturer logos appear in the in the product flypage,
 Firstly, find this in `administrator/components/com_virtuemart/classes/ps_product.php`:
   
 
-```
+{% highlight php %}
 function get_mf_name($product_id) {
   $db = new ps_DB;
 
@@ -45,12 +45,12 @@ function get_mf_name($product_id) {
     return "";
   }
 }
-```
+{% endhighlight %}
 
 And add this after it, it's basically a rework of the above code, but for the manufacturer description:
   
 
-```
+{% highlight php %}
 function get_mf_desc($product_id) {
   $db = new ps_DB;
 
@@ -67,48 +67,48 @@ function get_mf_desc($product_id) {
     return "";
   }
 }
-```
+{% endhighlight %}
 
 Then, in the product_snapshot function find this line:
   
-```
+{% highlight php %}
 $tpl->set( 'manufacturer_name', $this->get_mf_name($product_id));
-```
+{% endhighlight %}
 
 And add straight after it, this line of code (this can also be added to all the other snapshot functions, if you want to use the manufacturer description in other places):
   
-```
+{% highlight php %}
 $tpl->set( 'manufacturer_desc', $this->get_mf_desc($product_id));
-```
+{% endhighlight %}
 
 Next we need to edit `administrator/components/com_virtuemart/html/shop.product_details.php` so again find this line:
   
-```
+{% highlight php %}
 $manufacturer_name = $ps_product->get_mf_name($product_id);
-```
+{% endhighlight %}
 
 And add directly below it:
   
-```
+{% highlight php %}
 $manufacturer_desc = $ps_product->get_mf_desc($product_id);
-```
+{% endhighlight %}
 
 Then, towards the end of the file find this:
   
-```
+{% highlight php %}
 $tpl->set( "manufacturer_name", $manufacturer_name );
-```
+{% endhighlight %}
 
 And add this directly after it:
   
-```
+{% highlight php %}
 $tpl->set( "manufacturer_desc", $manufacturer_desc );
-```
+{% endhighlight %}
 
 Finally we can add the description to our product flypage! So open up whichever flypage you're using and just paste this code anywhere you want to use it:
   
-```
+{% highlight php %}
 <?php echo $manufacturer_desc ?>
-```
+{% endhighlight %}
 
 Now you can put whatever you want in the manufacturer description and it will appear in the flypage.
