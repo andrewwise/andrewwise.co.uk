@@ -34,3 +34,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.7"
+
+# Used for jekyll-import
+# gem "hpricot"
+# gem "open_uri_redirections"
+# gem "safe_yaml"
+# gem "jekyll-import"
