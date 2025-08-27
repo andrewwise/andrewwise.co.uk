@@ -5,9 +5,9 @@ title: Web developer based in York
 
 ## Hi, I'm Andrew!
 
-I am a web developer with experience in PHP and Ruby on Rails based in York, England. I work primarily with Shopify. I am also Magento certified. I have a BSc (Hons) in Computing from Sheffield Hallam University.
+I am a web developer with experience in PHP and Ruby on Rails based in York, England. I work primarily with Shopify. I have a BSc (Hons) in Computing from Sheffield Hallam University.
 
-I am part of the development team at [Brave the Skies Shopify agency in York.](https://bravetheskies.com/)
+I am part of the development team at [Brave the Skies Shopify Plus agency.](https://bravetheskies.com/)
 
 ## Contact me
 
