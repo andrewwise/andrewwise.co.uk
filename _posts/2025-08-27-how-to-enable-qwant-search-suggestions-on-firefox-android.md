@@ -6,7 +6,7 @@ description: A guide on how to enable Qwant search and suggestions in Firefox fo
 image: /images/2025/08/27/qwant-firefox-mobile-android-search-suggestions-settings.png
 ---
 
-<style type="text/css">
+<style>
   .main-content img {
     max-width: min(65vw, 320px);
     display: block;
