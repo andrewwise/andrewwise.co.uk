@@ -7,3 +7,4 @@ email: andrew@andrewwise.co.uk
 instagram: https://www.instagram.com/_wisey_/
 linkedin: https://www.linkedin.com/in/andrew-wise-b0b8942a/
 exclude: ["CNAME", "README.md"]
+locale: en_GB
