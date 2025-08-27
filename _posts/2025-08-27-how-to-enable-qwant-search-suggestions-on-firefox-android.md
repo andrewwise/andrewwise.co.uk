@@ -2,6 +2,8 @@
 layout: post
 title: How to enable Qwant search and suggestions on Firefox Android
 date: 2025-08-27 18:48:00.000000000 +01:00
+description: A guide on how to enable Qwant search and suggestions in Firefox for Android.
+image: /images/2025/08/27/qwant-firefox-mobile-android-search-suggestions-settings.png
 ---
 
 <style type="text/css">
