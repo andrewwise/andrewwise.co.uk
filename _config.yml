@@ -11,3 +11,5 @@ locale: en_GB
 author:
   name: Andrew Wise
   url: https://andrewwise.co.uk
+plugins:
+  - jekyll-sitemap

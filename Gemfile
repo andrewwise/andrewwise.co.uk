@@ -40,3 +40,5 @@ gem "webrick", "~> 1.9.1"
 # gem "open_uri_redirections"
 # gem "safe_yaml"
 # gem "jekyll-import"
+
+gem 'jekyll-sitemap'
