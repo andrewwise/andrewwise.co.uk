@@ -3,7 +3,6 @@ layout: post
 title: Deploy a Shopify theme to multiple stores from a single repository
 date: 2026-03-23 21:28:22.313771392 +0000
 description: How to deploy a Shopify theme to multiple stores from a single repository without overwriting content on each store.
-categories: shopify development
 tags: [shopify, theme development, github actions, ci/cd]
 ---
 
