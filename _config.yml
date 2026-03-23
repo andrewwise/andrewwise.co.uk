@@ -13,3 +13,4 @@ author:
   url: https://andrewwise.co.uk
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
