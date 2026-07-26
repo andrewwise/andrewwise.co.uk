@@ -26,6 +26,7 @@ layout: default
   }
 
   .albums-options {
+    margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -96,12 +97,6 @@ layout: default
     margin-top: 1rem;
   }
 
-  .albums-comment-label {
-    font-size: 0.85rem;
-    color: #666;
-    margin-bottom: 0.25rem;
-  }
-
   .albums-comment-text {
     font-size: 0.95rem;
     color: #333;
@@ -114,6 +109,12 @@ layout: default
 {% for entry in albums_desc %}
 <section class="albums-year-section" id="year-{{ entry.year }}">
   <h2 class="albums-year-heading">{{ entry.year }}</h2>
+
+  {% if entry.comment != "" and entry.comment != nil %}
+  <div class="albums-comment">
+    <div class="albums-comment-text">{{ entry.comment }}</div>
+  </div>
+  {% endif %}
 
   {% if entry.options.size == 0 %}
     <p class="albums-empty">No pick yet.</p>
@@ -149,13 +150,6 @@ layout: default
         </div>
       {% endfor %}
     </div>
-  {% endif %}
-
-  {% if entry.comment != "" and entry.comment != nil %}
-  <div class="albums-comment">
-    <div class="albums-comment-label">Notes</div>
-    <div class="albums-comment-text">{{ entry.comment }}</div>
-  </div>
   {% endif %}
 </section>
 {% endfor %}
