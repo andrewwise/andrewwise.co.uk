@@ -1,0 +1,242 @@
+# Album of the year picks, 1989–present
+# For years with multiple contenders, list them all under `options`.
+#
+# cover: Best source is the Cover Art Archive (free, designed for hotlinking):
+#   https://coverartarchive.org/release-group/{MusicBrainzID}/front
+
+- year: 2026
+  comment: "A very hard choice for 2026 and we're only half way through it!"
+  options:
+    - artist: "Nine Inch Nails"
+      album: "Nine Inch Noize"
+      cover: "https://coverartarchive.org/release-group/c348a8c0-9267-473b-b64d-c841b559f823/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Nine_Inch_Nails_discography"
+    - artist: "Angine de Poitrine"
+      album: "Vol. 2"
+      cover: "https://coverartarchive.org/release-group/e94228ce-5394-45f9-b535-7469a6e57d02/front-250"
+      wiki: ""
+
+- year: 2025
+  comment: "At first I was fairly indifferent to Turnstile, until I watched their live performance at Glastonbury 2025. It was the first time I'd seen the energy of hardcore punk show captured on video (live on the BBC no less!) and from that point on I was sold."
+  options:
+    - artist: "Turnstile"
+      album: "Never Enough"
+      cover: "https://coverartarchive.org/release-group/58310aac-65aa-492e-83fb-ec50c58e5a1d/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Never_Enough_(Turnstile_album)"
+
+- year: 2024
+  comment: ""
+  options:
+    - artist: "Molchat Doma"
+      album: "Belaya Polosa"
+      cover: "https://coverartarchive.org/release-group/c1b265b4-e613-40cf-a6db-33912936b398/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Belaya_Polosa"
+    - artist: "Blood Incantation"
+      album: "Absolute Elsewhere"
+      cover: "https://coverartarchive.org/release-group/25267682-bdfc-435a-b6a7-89c266f7d0e8/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Absolute_Elsewhere"
+
+- year: 2023
+  comment: ""
+  options:
+    - artist: "Billie Kark"
+      album: "TZINDA"
+      # No cover art: https://coverartarchive.org/release-group/ab36f235-4bd9-4da9-bd38-28688c9e69dc/front-250
+      cover: ""
+      wiki: ""
+    - artist: "Voyager"
+      album: "Fearless in Love"
+      cover: "https://coverartarchive.org/release-group/5bb0a6a3-490b-419d-9427-3b8c314b12b4/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Fearless_in_Love"
+
+- year: 2022
+  comment: ""
+  options:
+    - artist: "Rammstein"
+      album: "Zeit"
+      cover: "https://upload.wikimedia.org/wikipedia/en/a/ab/Rammstein_-_Zeit.png"
+      wiki: "https://en.wikipedia.org/wiki/Zeit_(album)"
+
+- year: 2021
+  comment: ""
+  options: []
+
+- year: 2020
+  comment: ""
+  options:
+    - artist: "Thy Catafalque"
+      album: "Naiv"
+      cover: "https://coverartarchive.org/release-group/67a229e7-c2aa-47e8-8b14-444bfe4c32ed/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Naiv_(album)"
+
+- year: 2019
+  comment: ""
+  options: []
+
+- year: 2018
+  comment: ""
+  options: []
+
+- year: 2017
+  comment: ""
+  options:
+    - artist: "Converge"
+      album: "The Dusk In Us"
+      cover: "https://coverartarchive.org/release-group/fe96f1f4-5c9f-4a39-a9d1-181dd3f4c54b/front-250"
+      wiki: "https://en.wikipedia.org/wiki/The_Dusk_in_Us"
+
+- year: 2016
+  comment: ""
+  options: []
+
+- year: 2015
+  comment: ""
+  options:
+    - artist: "Sacri Monti"
+      album: "Sacri Monti"
+      cover: "https://coverartarchive.org/release-group/54da057d-319e-4fce-aa7f-05a6f85cc851/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Sacri_Monti_(band)"
+
+- year: 2014
+  comment: ""
+  options: []
+
+- year: 2013
+  comment: ""
+  options: []
+
+- year: 2012
+  comment: ""
+  options: []
+
+- year: 2011
+  comment: ""
+  options: []
+
+- year: 2010
+  comment: ""
+  options: []
+
+- year: 2009
+  comment: ""
+  options: []
+
+- year: 2008
+  comment: ""
+  options: []
+
+- year: 2007
+  comment: ""
+  options:
+    - artist: "Municipal Waste"
+      album: "The Art of Partying"
+      cover: "https://coverartarchive.org/release-group/f78bae5a-610d-32af-a5cc-eb9fb1230fda/front-250"
+      wiki: "https://en.wikipedia.org/wiki/The_Art_of_Partying"
+
+- year: 2006
+  comment: ""
+  options: []
+
+- year: 2005
+  comment: ""
+  options: []
+
+- year: 2004
+  comment: ""
+  options:
+    - artist: "The Fall of Troy"
+      album: "Doppelgänger"
+      cover: "https://coverartarchive.org/release-group/e325bc4c-c164-3b13-8cfa-81bb3d22f786/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Doppelg%C3%A4nger_(The_Fall_of_Troy_album)"
+
+- year: 2003
+  comment: ""
+  options:
+    - artist: "Jane's Addiction"
+      album: "Strays"
+      cover: "https://coverartarchive.org/release-group/bccb3052-3941-349e-85db-0ef6a38b2ed7/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Strays_(Jane%27s_Addiction_album)"
+
+- year: 2002
+  comment: ""
+  options: []
+
+- year: 2001
+  comment: ""
+  options:
+    - artist: "System of a Down"
+      album: "Toxicity"
+      cover: "https://coverartarchive.org/release-group/f50fbcb4-bfcd-3784-b4c9-44f4793e66b2/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Toxicity_(album)"
+
+- year: 2000
+  comment: ""
+  options:
+    - artist: "At the Drive-In"
+      album: "Relationship of Command"
+      cover: "https://coverartarchive.org/release-group/b7f5ed97-bb72-31fb-acd8-4bad86d95a58/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Relationship_of_Command"
+
+- year: 1999
+  comment: ""
+  options:
+    - artist: "Feeder"
+      album: "Echo Park"
+      cover: "https://coverartarchive.org/release-group/8388e7c7-00a4-3bbe-9830-443774f74542/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Echo_Park_(album)"
+
+- year: 1998
+  comment: "Possibly my favourite album of all time. Truly ahead of its time in the scene. All the intensity you could want out of a hardcore punk record but with a level of creativity that I think is unmatched."
+  options:
+    - artist: "Refused"
+      album: "The Shape of Punk to Come"
+      cover: "https://coverartarchive.org/release-group/8a3b8b22-7eef-3d3a-9cec-90b2ae712bcb/front-250"
+      wiki: "https://en.wikipedia.org/wiki/The_Shape_of_Punk_to_Come"
+
+- year: 1997
+  comment: ""
+  options: []
+
+- year: 1996
+  comment: ""
+  options: []
+
+- year: 1995
+  comment: ""
+  options: []
+
+- year: 1994
+  comment: ""
+  options: []
+
+- year: 1993
+  comment: ""
+  options: []
+
+- year: 1992
+  comment: ""
+  options: []
+
+- year: 1991
+  comment: ""
+  options:
+    - artist: "Nirvana"
+      album: "Nevermind"
+      cover: "https://coverartarchive.org/release-group/1b022e01-4da6-387b-8658-8678046e4cef/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Nevermind"
+
+- year: 1990
+  comment: ""
+  options:
+    - artist: "Megadeth"
+      album: "Rust in Peace"
+      cover: "https://coverartarchive.org/release-group/19e7c9f3-7c4c-3a56-ba50-4156b39f76ca/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Rust_in_Peace"
+    - artist: "Slayer"
+      album: "Seasons in the Abyss"
+      cover: "https://coverartarchive.org/release-group/27e49c6a-c0c6-3e76-b020-e48f4204ac6a/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Seasons_in_the_Abyss"
+
+- year: 1989
+  comment: ""
+  options: []
