@@ -134,7 +134,7 @@ layout: default
               class="album-card-cover"
               src="{{ option.cover }}"
               alt="{{ option.artist }} – {{ option.album }} album cover"
-              loading="lazy"
+              {% if forloop.parentloop.index > 3 %}loading="lazy"{% endif %}
             >
           {% else %}
             <div class="album-card-cover-placeholder">No cover yet</div>
