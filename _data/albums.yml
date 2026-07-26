@@ -17,7 +17,7 @@
       wiki: ""
 
 - year: 2025
-  comment: "At first I was fairly indifferent to Turnstile, until I watched their live performance at Glastonbury 2025. It was the first time I'd seen the energy of hardcore punk show captured on video (live on the BBC no less!) and from that point on I was sold."
+  comment: "At first I was fairly indifferent to Turnstile, until I watched their live performance at Glastonbury 2025. It was the first time I'd seen the energy of hardcore punk show captured on TV (live on the BBC no less!) and from that point on I was sold."
   options:
     - artist: "Turnstile"
       album: "Never Enough"
@@ -50,7 +50,7 @@
       wiki: "https://en.wikipedia.org/wiki/Fearless_in_Love"
 
 - year: 2022
-  comment: ""
+  comment: "Rammstein proving they're still able to put out fantastic albums after nearly 30 years."
   options:
     - artist: "Rammstein"
       album: "Zeit"
