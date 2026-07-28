@@ -70,8 +70,12 @@
       wiki: "https://en.wikipedia.org/wiki/Naiv_(album)"
 
 - year: 2019
-  comment: ""
-  options: []
+  comment: "My favourite Voyager release. Great musicianship and hooks."
+  options:
+    - artist: "Voyager"
+      album: "Colours in the Sun"
+      cover: "https://coverartarchive.org/release-group/b143aa52-bdb5-4266-a6b6-09c143c356b4/front-250"
+      wiki: "https://en.wikipedia.org/wiki/Voyager_(Australian_band)#2019%E2%80%932020:_Colours_in_the_Sun"
 
 - year: 2018
   comment: ""
@@ -178,7 +182,7 @@
       wiki: "https://en.wikipedia.org/wiki/Relationship_of_Command"
 
 - year: 1999
-  comment: ""
+  comment: "I had to include \"Echo Park\" as it was the first album I ever bought. I think I was inspired by the soundtrack to \"Gran Turismo 3: A-Spec\" at the time, although I must admit I'm pretty tired of \"Buck Rogers\" now."
   options:
     - artist: "Feeder"
       album: "Echo Park"
