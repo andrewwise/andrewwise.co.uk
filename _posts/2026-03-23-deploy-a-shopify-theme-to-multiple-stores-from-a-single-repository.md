@@ -32,6 +32,7 @@ Once you have your secrets set up, you can set up a GitHub Actions workflow to d
 
 You can use the following workflow as a starting point:
 
+{% raw %}
 ```yaml
 name: Deploy theme
 on: 
@@ -75,6 +76,7 @@ jobs:
             ${{ matrix.use_flags && env.FLAGS || '' }} \
             --password ${{ secrets[matrix.secret] }}
 ```
+{% endraw %}
 
 This flow is triggered either on a push to the `main` branch or manually through the GitHub Actions interface. It will deploy the theme to each store defined in the matrix, using the corresponding password from the secrets.
 
