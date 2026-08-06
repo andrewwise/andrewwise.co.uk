@@ -1,4 +1,32 @@
 ---
 ---
 
-@use "../../_scss/normalize";
+@use "normalize";
+@use "code";
+
+.project-name {
+  display: block;
+  font-size: 2em;
+  margin: 0.67em 0;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 64em) {
+  .project-name {
+    font-size: 3.25rem;
+  }
+}
+
+.project-name:hover {
+  text-decoration: none;
+}
+
+.project-tagline {
+  display: block;
+}
+
+a[target=_blank]:after { 
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
+}

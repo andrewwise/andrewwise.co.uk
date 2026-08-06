@@ -1,0 +1,14 @@
+.highlight:has(code) {
+  border-bottom-right-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.copy-code {
+  cursor: copy;
+  font-size: 14px;
+  padding: 0.5rem;
+  text-align: right;
+  width: 100%;
+  display: inline-block;
+  color: #606c71;
+}
