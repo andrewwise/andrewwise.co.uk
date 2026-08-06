@@ -2,6 +2,8 @@
 <html lang="{{ site.lang | default: "en-GB" }}">
   {% include head.html %}
   <body>
+    <a id="skip-to-content" href="#content">Skip to content.</a>
+
     <header class="page-header">
       {% if page.url == "/" %}
         <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
@@ -22,7 +24,7 @@
       </nav>
     </header>
 
-    <main class="main-content">
+    <main id="content" class="main-content">
       {{ content }}
 
       <footer class="site-footer">

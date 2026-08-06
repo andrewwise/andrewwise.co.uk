@@ -2,7 +2,42 @@
 ---
 
 @use "normalize";
+@use "variables";
 @use "code";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: variables.$body-text-color;
+}
+
+header {
+  background-color: #008080;
+  color: #ffffff;
+
+  a {
+    color: #ffffff;
+  }
+}
+
+#skip-to-content {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+
+  &:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: auto;
+    width: auto;
+  }
+}
 
 .project-name {
   display: block;
