@@ -42,3 +42,4 @@ gem "webrick", "~> 1.9.1"
 # gem "jekyll-import"
 
 gem 'jekyll-sitemap'
+gem 'jekyll-seo-tag'
